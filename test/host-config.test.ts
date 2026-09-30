@@ -33,7 +33,7 @@ const RESOLVER_NAMES = new Set(Object.keys(RESOLVERS));
 // ─── hosts/index.ts ─────────────────────────────────────────
 
 describe('hosts/index.ts', () => {
-  test('ALL_HOST_CONFIGS has 10 hosts', () => {
+  test('ALL_HOST_CONFIGS has 12 hosts', () => {
     expect(ALL_HOST_CONFIGS.length).toBe(10);
   });
 
